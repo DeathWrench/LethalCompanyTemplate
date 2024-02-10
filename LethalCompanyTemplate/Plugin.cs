@@ -1,14 +1,14 @@
-﻿using BepInEx;
+using BepInEx;
 
 namespace LethalCompanyTemplate
 {
-    [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+    [BepInPlugin("GUID", "NAME", "VERSION X.X.X")]
     public class Plugin : BaseUnityPlugin
     {
         private void Awake()
         {
             // Plugin startup logic
-            Logger.LogInfo($"Plugin {PluginInfo.PLUGIN_GUID} is loaded!");
+            Logger.LogInfo($"Plugin {"GUID"} is loaded!");
         }
     }
 }
